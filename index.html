@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/IMG_5819.JPG" alt="Zexin Lin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Zexin Lin">Zexin Lin</h1>
+
+          <p class="title">Senior CS+ACMS Student @ UW-Seattle</p>
+        </div> 
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="linzexin@cs.washington.edu" class="contact-link">linzexin@uw.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:++12066378994" class="contact-link">+1 (206) 637-8994</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-02-22">Feb 22, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seattle, Washington, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/zexin-lin-742674224/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Courses</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            
+            Hello, I'm Zexin Lin, a Computer Science + Applied and Computational Mathematical Science double major at the University of Washington-Seattle, graduating in June 2024. With a passion for data science and statistics, I've maintained a 3.86/4.00 GPA and earned a spot on the Dean's List for three consecutive years. My technical proficiency includes Java, TypeScript, C/C++, Python, SQL, and tools like Linux, Unix, and Git.
+
+          </p>
+
+          <p>
+            I've engaged in challenging projects like developing a multi-threaded web server, creating a path-finding web application using graph algorithms , and implementing text recommendation for a web chat application. These experiences have honed my programming skills and enhanced my abilities in teamwork and problem-solving.
+
+            In my free time, I enjoy exploring new technologies and developing interesting projects. If you're interested in my background or want to learn more, feel free to contact me.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  Machine Learning + Computer Vision + Natural Language Processing
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mathematics</h4>
+
+                <p class="service-item-text">
+                  Math is fun! I love algorithms and optimization theory.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  I do research on large vision-language model's benchmarking. I will update the progress later here.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Washington - Seattle</h4>
+
+              <span>2020-2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Science with double Major in Computer Science and Applied Mathematics</br>
+                GPA: 3.86/4.00<br/>
+                Seattle, WA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Holy Name Central Catholic Jr./Sr. High School(Saint Paul Diocesan Jr./Sr. High School)</h4>
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                High School Diploma <br/>Worcester, MA
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Undergrad Research Assistant, Vision-Language Models</h4>
+              <span>12/2023 — Present</span>
+              <p class="timeline-text">
+                Joining the project titled "Evaluating the compositional understanding capability of large vision-language models," I will be working under the guidance of Jieyu Zhang, a graduate student, and secondary mentor Ranjay Krishna. Positioned in the dynamic field of Artificial Intelligence, this project involves studying large vision-language models and their performance on compositional understanding benchmarks. My focus will be to get acquainted with compositional understanding benchmarks, work with extensive vision-language models, and contribute to implementing an evaluation suite for benchmarking. Skills applied will include Python, HuggingFace, and foundational knowledge of large language models. Our goal is to demonstrate a functional demo by the end of Winter, contributing to the field's advancements in understanding and evaluating AI models.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Undergrad Research Asistant, Sensors Energy & Automation Lab(SEAL)</h4>
+              <span>06/2022 — 08/2022</span>
+              <p class="timeline-text">
+                At the Sensors Energy & Automation Lab (SEAL) at the University of Washington, under the supervision of Prof. Alexander V. Mamishev, I expanded the functions of ECoS, a technical writing solution, by adding features like a Google extension. My role involved building a website and Microsoft add-in using ReactJS, powered by a SpringBoot (Java) backend hosted on AWS.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">TypeScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+  - #COURSES
+-->
+
+<article class="courses" data-page="courses">
+
+  <header>
+    <h2 class="h2 article-title">Courses</h2>
+  </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Computer Science</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 422: Advanced Modern Algorithms</h4>
+            <span>01/2024 — Present</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 446: Machine Learning Foundations</h4>
+            <span>01/2024 — Present</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 427: Computational Biology</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 421: Algorithm Design and Analysis</h4>
+            <span>09/2023 — 12/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 333: System Programming</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 331: Software Design and Implementation</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 332: Data Structures and Parallelism</h4>
+            <span>01/2023 — 03/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 351: Hardware/Software Interface</h4>
+            <span>01/2023 — 03/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 312: Probability for Computing</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 416: Introduction to Machine Learning</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 414: Database Management</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 373: Data Structures and Algorithms</h4>
+            <span>06/2021 — 08/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">CSE 142/143: Java Programming I/II</h4>
+            <span>09/2020 — 03/2021</span>
+          </li>
+
+        </ol>
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Mathematics/Statistics/Applied Mathematics/Physics</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 407: Linear Optimization(Audit Only/Not for Grading)</h4>
+            <span>01/2024 — present</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 403: Resampling Inference</h4>
+            <span>03/2023 — 06/2023</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 381: Discrete Mathematical Modeling</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 383: Continuous Mathematical Modeling</h4>
+            <span>09/2022 — 12/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH352: Matrix Algebra with Applications and Numerical Analysis</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 311: Elements of Statistical Methods</h4>
+            <span>06/2022 — 03/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 391: Quant Methods for Data Science</h4>
+            <span>06/2022 — 03/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 301: Elementry Number Theory</h4>
+            <span>06/2022 — 03/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 300: Discrete Methematical Reasoning</h4>
+            <span>01/2022 — 03/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 395: Probability Theory II</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 123: Waves, Light, and Heat</h4>
+            <span>09/2021 — 12/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">STAT 394: Probability Theory I</h4>
+            <span>06/2021 — 08/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 122: Electromagnetism</h4>
+            <span>06/2021 — 08/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 308: Linear Algebra</h4>
+            <span>06/2022 — 08/2022</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">AMATH 301: Beginning Scientific Computing</h4>
+            <span>03/2021 — 06/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">PHYS 121: Mechanics</h4>
+            <span>03/2021 — 06/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH 307: Differential Equations</h4>
+            <span>01/2021 — 03/2021</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">MATH APCalcAB/125/126: Calculus I/II/III</h4>
+            <span>01/2020 — 03/2021</span>
+          </li>
+
+        </ol>
+
+      </section>
+
+    </ul>
+
+  </section>
+
+</article>
+
+     
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.5330266133847!2d-122.3100328236043!3d47.65464067119421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014929d8535eb%3A0x6b742c7901b82ba3!2sUniversity%20of%20Washington!5e0!3m2!1szh-CN!2sus!4v1703207027452!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
